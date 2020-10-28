@@ -1,5 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@100;300;400;700&family=Roboto:wght@100;300;400&display=swap');
 
+/* GLOBAL STYLES */
+body {
+  margin: 8px;
+  background-color: #fffdfa;
+  font-family: 'Open Sans',helveitca, arial, sans;
+  font-weight: 500;
+  font-color: #A0A0A0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', helvetica, arial, sans;
+  font-weight: 300;
+}
+h1 {
+  font-size: 6.5vw;
+  font-weight: 250;
+  margin-top: 0;
+}
+h2  {
+  font-size: 2em;
+}
+a {
+  color: #86c6eb;
+  text-decoration: none;
+}
+a:hover {
+  color: #f04f9d;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0.75em 0;
+  font-color: #A0A0A0;
+  fonr-weight: lighter;
+}
+
+div {
+  display: block;
+}
+
+/*CONTAINER*/
+
+.container {
+  width: 650px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -19,52 +65,16 @@
   }
 }
 
-/* GLOBAL STYLES */
-html {
-}
-body {
-  margin: 8px;
-  background-color: #fffdfa;
-  font-family: 'Open Sans',helveitca, arial, sans;
-  font-weight: 500;
-}
+/*CUSTOM*/
 
-h1 {
-  font-size: 6vw;
-  font-weight: 700;
-  margin-top: 0;
-}
-h2  {
-  font-size: 2em;
-}
-a {
-  color: #86c6eb;
-  text-decoration: none;
-}
-a:hover {
-  color: #f04f9d;
-}
-
-p {
-  line-height: 1.5;
-  margin: 0.75em 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', helvetica, arial, sans;
-  font-weight: 200;
-}
-div {
-  display: block;
-}
-.container {
-  width: 500px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
-}
-.card {
+/*.btn-blue {
+  background-color: #86c6eb;
+  padding: 20px 20px;
+}*/
+.card-white {
   background-color: white;
   padding: 40px;
-  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
@@ -81,7 +91,7 @@ div {
 .social-list > li {
   display: inline-block;
   font-size: 25px;
-  padding: 0px 15px;
+  padding: 0px 20px;
 }
 .social-list {
   list-style: none;
